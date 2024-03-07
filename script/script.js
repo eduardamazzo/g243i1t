@@ -1,6 +1,6 @@
 function aperte(){
     while(true){
-        alert("Virús detectado");
+        alert("abertou besta KKKKKKKKK");
 
     }
     

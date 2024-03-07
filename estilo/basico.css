@@ -1,9 +1,75 @@
-.btn {
+.btn{
+    margin-top: 20%;
     background-color: rgb(151, 112, 187);
     color: rgb(255, 255, 255);
-    font-size: 64px;
+    text-align: center;
+    width: 80%;
+    font-size: 40px;
 
+}
+.conteudo {
+    text-align: center;
 }
 body {
     background-color: rgb(201, 161, 238);
+}
+.barra {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background-color: rgb(141, 116, 165);
+
+}
+.desktop {
+    display: none;
+
+}
+.tablet {
+    display: none;
+}
+.mobile {
+    font-size: 35px;
+    color: rgb(24, 18, 29);
+}
+@media (min-width:800px) {
+     .barra{
+        background-color: rgb(205, 137, 214);
+        height: 60px;
+     }
+     .mobile{ 
+        display: none;
+     }
+     .tablet{
+        display: inline;
+        font-size: 55px;
+        color: rgb(209, 209, 223);
+     }
+     .btn{
+        margin-top: 0;
+        width: 70px;
+    }
+    .conteudo{
+        text-align: right;
+    }
+}
+@media (min-width:1228px) {
+    .barra {
+        background-color: rgb(103, 76, 109);
+        height: 120px;
+
+    }
+    .tablet{
+        display: none;
+
+    }
+    .desktop{
+        display: inline;
+        font-size:70px;
+        color: rgb(9, 9, 12);
+    }
+    .conteudo{
+        text-align: left;
+    }
+    
+
 }
