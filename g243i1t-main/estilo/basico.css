@@ -1,0 +1,100 @@
+.btn{
+   
+    background-color: rgb(151, 112, 187);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    font-size: 26px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+}
+.aba{ 
+    width: 100%;
+    height: 400px;
+
+}
+#aba1{
+    background-color: rgb(238, 74, 216);
+}
+#aba2{
+    background-color: rgb(219, 127, 241);
+}
+#aba3{
+    background-color: rgb(243, 74, 159);
+}
+#aba4{
+    background-color: rgb(171, 90, 247);
+}
+#aba5{
+    background-color: rgb(250, 39, 138);
+}
+
+   
+.conteudo {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(201, 161, 238);
+}
+.barra {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background-color: rgb(141, 116, 165);
+
+}
+.desktop {
+    display: none;
+
+}
+.tablet {
+    display: none;
+}
+.mobile {
+    font-size: 35px;
+    color: rgb(24, 18, 29);
+}
+@media (min-width:800px) {
+     .barra{
+        background-color: rgb(205, 137, 214);
+        height: 80px;
+     }
+     .mobile{ 
+        display: none;
+     }
+     .tablet{
+        display: inline;
+        font-size: 55px;
+        color: rgb(209, 209, 223);
+     }
+     .btn{
+        margin-top: 0;
+        width: 19.5px;
+    }
+    .conteudo{
+        text-align: right;
+    }
+}
+@media (min-width:1228px) {
+    .barra {
+        background-color: rgb(103, 76, 109);
+        height: 120px;
+
+    }
+    .tablet{
+        display: none;
+
+    }
+    .desktop{
+        display: inline;
+        font-size:70px;
+        color: rgb(9, 9, 12);
+    }
+    .conteudo{
+        text-align: left;
+    }
+    
+
+}
